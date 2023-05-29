@@ -21,4 +21,5 @@ urlpatterns = [
     path('test/', include('blog.urls', namespace='blog')),
     # path('api/', include('blog_api.urls', namespace='blog_api')),
     path('', include('books.urls')),
+    path('api/', include('apis.urls')),
 ]
